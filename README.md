@@ -6,7 +6,7 @@ This repository contains the models used in the paper "Expanding an Open-Source 
 
 The models were developed and tested with **Dymola 2024X** under MS Windows 11. 
 ### Dependencies
-- [OpenIPSL v.3.0.1](https://github.com/OpenIPSL/OpenIPSL/releases/tag/v3.0.1), please download it from this version's library release, [here](https://github.com/OpenIPSL/OpenIPSL/releases/tag/v3.0.1)
+- [OpenIPSL v.3.1.0](https://github.com/OpenIPSL/OpenIPSL/releases/tag/v3.1.0), please download it from this version's library release, [here](https://github.com/OpenIPSL/OpenIPSL/releases/tag/v3.1.0)
 - **Modelica Standard Library v.4.0.0** (shipped with Dymola 2024X)
 - **Modelica_LinearSystems2 v2.4.0** (shipped with Dymola 2024X)
 - **DataFiles v1.1.0** (shipped with Dymola 2024X)
@@ -14,7 +14,13 @@ The models were developed and tested with **Dymola 2024X** under MS Windows 11.
 - **LinearAnalysis v1.0.1** (Shipped with Dymola 2024X)
 ### How to Run
 
-To run the time domain simulation
+To run the time domain simulation shown in the paper follow the following steps - 
+
+i) Simulation Tab > Open Script
+
+ii) Open the PgenCompare.MOS file 
+
+iii) Execute Script
 
 ## Acknowledment
 The development of these models is in part based upon work supported by the U.S. Department of Energy’s Office of Energy Efficiency and Renewable Energy (EERE) under the Industrial Efficiency and Decarbonization Office, Award Number DE-EE0009139, and in part by the National Science Foundation Award No. 2231677.

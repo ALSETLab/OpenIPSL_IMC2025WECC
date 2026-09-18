@@ -1,0 +1,11 @@
+﻿// Simulate two models and compare Pgen
+
+model1 := "PVPlant";
+model2 := "PVPlantNew";
+stopTime := 5;
+
+simulateModel(model1, stopTime=stopTime, resultFile="result1");
+simulateModel(model2, stopTime=stopTime, resultFile="result2");
+
+plot({"pV.RenewableGenerator.Pgen"}, fileName="result1.mat", legend={"REECB"});
+plot({"pVNew.RenewableGenerator.Pgen"}, fileName="result2.mat", legend={"REECD"}, erase=false);
